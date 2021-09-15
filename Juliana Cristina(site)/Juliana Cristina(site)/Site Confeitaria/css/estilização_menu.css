@@ -1,0 +1,149 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    background-color: navajowhite;
+    color: navajowhite;
+    padding: 30px;
+}
+
+#logo_bar{
+    background-color: navajowhite;
+    color: navajowhite;
+    text-align: center;
+    padding: 25px;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#logo_bar span{
+    color: blue;
+    text-align: justify;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:navajowhite;
+}
+
+#article{
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    float: left;
+}
+
+li a, .drop_btt{
+    display: inline-block;
+    color: navajowhite;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .drop_btt:hover{
+    background-color: lightsalmon;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: navajowhite;
+    min-width: 160px;
+    z-index: 1;
+}
+
+#container{
+     text-align: center;
+     color:navy;
+}
+
+#container h1{
+    text-align: center;
+    color: navy;
+}
+
+#container h2{
+   text-align: center;
+   color: navy;
+   padding: 5px;
+}
+
+.dropdown_content a{
+    color: lightpink;
+    padding: 14px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown_content a:hover{
+    background-color: navajowhite;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+label[for="btt_menu"]{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    color: mediumseagreen;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#btt_menu{
+    display: none;
+    background-color: lightsalmon;
+}
+
+#banner img{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.box{
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+
+.box-2{
+    border-bottom: 1px solid black;
+    padding: 0px;
+    color: navy;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1440px){
+    #main{
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #main{
+        padding:0px;
+        margin:0px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #content{
+        display: block;
+    }
+} 
